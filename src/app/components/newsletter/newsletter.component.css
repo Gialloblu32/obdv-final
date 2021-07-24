@@ -1,0 +1,80 @@
+.newsletter {
+    margin: 80px auto;
+    padding: 15px;
+    border-radius: 6px;
+    background-image: linear-gradient(to bottom right, var(--lightGrey) 1%, var(--darkGrey));
+    display: flex;
+    align-items: center;
+    max-width: 850px;
+    justify-content: space-between;
+}
+
+.news-text {
+    padding-left: 5px;
+    flex-grow: 1;
+}
+
+.news-text-a {
+    font-size: 25px;
+    padding-left: 20px;
+}
+
+.news-text-b {
+    font-size: 30px;
+    color: var(--yellow);
+    text-align: end;
+    padding-right: 20px;
+}
+
+.form-input-news {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: var(--white);
+    border: var(--darkBlue) solid 2px;
+    color: var(--darkBlue);
+    font-size: 20px;
+    font-family: 'Nunito Sans', sans-serif;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.button-newsletter {
+    background-color: none;
+    border: none;
+    color: var(--darkBlue);
+    font-size: 26px;
+    font-weight: bold;
+    border-radius: 10px;
+    text-decoration: none;
+    display: block;
+    text-align: center  ;
+}
+
+.button-newsletter:hover {
+    color: var(--orange);
+}
+
+/* NEWSLETTER MEDIA QUERY */
+
+@media (max-width: 767px) {
+
+    .newsletter {
+        display: block;
+    }
+
+    .newsletter-pic {
+        display: none;
+    }
+
+    .form-input-news {
+        width: 100%;
+    }
+
+    .news-text-a {
+        text-align: center;
+    }
+    .news-text-b {
+        margin-bottom: 5px;
+        text-align: center;
+    }
+}

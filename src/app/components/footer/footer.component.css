@@ -1,0 +1,8 @@
+.copyright {
+    background-image: linear-gradient(var(--lightGrey) 1%, var(--darkGrey));
+    text-align: center;
+    width: 100%;
+    color: var(--darkBlue);
+    height: 55px;
+    font-size: 20px;
+}

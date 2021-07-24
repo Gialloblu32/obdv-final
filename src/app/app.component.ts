@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'obdv';
+  contentImg = "Imagenlkjhygtfrd";
+  contentAlt = "Alkjhgfdt";
+  contentP = "Párraflkjhgfdo";
 }
+ 

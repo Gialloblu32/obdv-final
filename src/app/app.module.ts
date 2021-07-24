@@ -7,6 +7,9 @@ import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 import { MainPicComponent } from './components/main-pic/main-pic.component';
 import { PicMenuComponent } from './components/pic-menu/pic-menu.component';
 import { ContentComponent } from './components/content/content.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { BottomComponent } from './components/bottom/bottom.component';
+import { NewsletterComponent } from './components/newsletter/newsletter.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +17,10 @@ import { ContentComponent } from './components/content/content.component';
     NavBarComponent,
     MainPicComponent,
     PicMenuComponent,
-    ContentComponent
+    ContentComponent,
+    FooterComponent,
+    BottomComponent,
+    NewsletterComponent
   ],
   imports: [
     BrowserModule,
