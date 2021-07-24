@@ -1,1 +1,20 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+    --darkBlue: #011A27;
+    --blue: #063852;
+    --orange: #F0810F;
+    --yellow: #E6DF44;
+    --lightYellow: #fff98a;
+    --lighterYellow: #ffffa8;
+    --white: #ffffff;
+    --black: #000000;
+    --lightGrey: #b4b4b4;
+    --darkGrey: #494949;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Antonio', sans-serif;
+    color: var(--darkBlue);
+}
