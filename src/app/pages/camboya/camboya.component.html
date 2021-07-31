@@ -1,0 +1,18 @@
+<app-nav-bar></app-nav-bar>
+
+<app-main-pic></app-main-pic>
+
+<app-pic-menu></app-pic-menu>
+
+<app-content 
+    *ngFor="let cont of content"
+    [contentImg]="cont.contentImg"
+    [contentAlt]="cont.contentAlt"
+    [contentP]="cont.contentP"    
+></app-content>
+
+<app-newsletter></app-newsletter>
+
+<app-bottom></app-bottom>
+
+<app-footer></app-footer>

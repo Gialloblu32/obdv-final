@@ -9,11 +9,7 @@ export class ContentComponent implements OnInit {
 
   constructor() { }
 
-/*   contentImg = "Imagen";
-  contentAlt = "Alt";
-  contentP = "Párrafo"; */
-
-  @Input() contentImg?: string;
+  @Input() contentImg = "/assets/images/camboya-pic (1).jpeg";
   @Input() contentAlt?: string;  
   @Input() contentP?: string;
 

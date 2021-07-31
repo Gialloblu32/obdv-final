@@ -15,6 +15,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Antonio', sans-serif;
     color: var(--darkBlue);
+    font-family: 'Hahmlet', serif;
 }
+

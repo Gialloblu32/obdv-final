@@ -10,6 +10,14 @@ import { ContentComponent } from './components/content/content.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { BottomComponent } from './components/bottom/bottom.component';
 import { NewsletterComponent } from './components/newsletter/newsletter.component';
+import { CamboyaComponent } from './pages/camboya/camboya.component';
+import { AcercaComponent } from './pages/acerca/acerca.component';
+import { HomeComponent } from './pages/home/home.component';
+import { TitleComponent } from './components/title/title.component';
+import { PortfolioComponent } from './components/portfolio/portfolio.component';
+import { AboutComponent } from './components/about/about.component';
+import { FormComponent } from './components/form/form.component';
+import { CountryMenuComponent } from './components/country-menu/country-menu.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +28,15 @@ import { NewsletterComponent } from './components/newsletter/newsletter.componen
     ContentComponent,
     FooterComponent,
     BottomComponent,
-    NewsletterComponent
+    NewsletterComponent,
+    CamboyaComponent,
+    AcercaComponent,
+    HomeComponent,
+    TitleComponent,
+    PortfolioComponent,
+    AboutComponent,
+    FormComponent,
+    CountryMenuComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,40 @@
+/* FORM */
+
+.form {
+    max-width: 750px;
+    margin: 0px auto;
+    margin-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.form-label {
+    margin-bottom: 25px;
+    font-size: 25px;
+    border-radius: 3px;
+    color: var(--orange);
+}
+
+.form-input-about {
+    width: 100%;
+    font-family: 'Nunito Sans', sans-serif;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: var(--white);
+    border: var(--darkBlue) solid 2px;
+    font-size: 20px;
+}
+
+.button {
+    background-color: none;
+    border: var(--darkBlue) solid 1px;
+    padding: 8px 8px;
+    color: var(--darkBlue);
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.button:hover {
+    color: var(--orange);
+}

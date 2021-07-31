@@ -1,3 +1,17 @@
+.content {
+    text-align: center;
+}
+
+.content img {
+    max-width: 250px;
+}
+
+.content p {
+    font-size: 20px;
+}
+
+
+
 .text {
     margin-left: 120px;
     margin-right: 120px;
