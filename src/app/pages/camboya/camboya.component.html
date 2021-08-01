@@ -1,8 +1,15 @@
 <app-nav-bar></app-nav-bar>
 
-<app-main-pic></app-main-pic>
+<app-main-pic
+[country]="country"
+[description]="description"
+[countrypic]="countrypic"
+
+></app-main-pic>
 
 <app-pic-menu></app-pic-menu>
+
+<h1 id="principal">Principal</h1>
 
 <app-content 
     *ngFor="let cont of content"
@@ -10,6 +17,52 @@
     [contentAlt]="cont.contentAlt"
     [contentP]="cont.contentP"    
 ></app-content>
+
+<h1 id="turismo">Turismo</h1>
+
+<app-content 
+    *ngFor="let cont of content"
+    [contentImg]="cont.contentImg"
+    [contentAlt]="cont.contentAlt"
+    [contentP]="cont.contentP"    
+></app-content>
+
+<h1 id="historias">Historias</h1>
+
+<app-content 
+    *ngFor="let cont of content"
+    [contentImg]="cont.contentImg"
+    [contentAlt]="cont.contentAlt"
+    [contentP]="cont.contentP"    
+></app-content>
+
+<h1 id="costumbres">Costumbres</h1>
+
+<app-content 
+    *ngFor="let cont of content"
+    [contentImg]="cont.contentImg"
+    [contentAlt]="cont.contentAlt"
+    [contentP]="cont.contentP"    
+></app-content>
+
+<h1 id="naturaleza">Naturaleza</h1>
+
+<app-content 
+    *ngFor="let cont of content"
+    [contentImg]="cont.contentImg"
+    [contentAlt]="cont.contentAlt"
+    [contentP]="cont.contentP"    
+></app-content>
+
+<h1 id="fotos">Fotos</h1>
+
+<app-content 
+    *ngFor="let cont of content"
+    [contentImg]="cont.contentImg"
+    [contentAlt]="cont.contentAlt"
+    [contentP]="cont.contentP"    
+></app-content>
+
 
 <app-newsletter></app-newsletter>
 

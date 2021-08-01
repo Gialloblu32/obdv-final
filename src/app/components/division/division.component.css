@@ -1,0 +1,22 @@
+.division {
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 5px;
+    text-align: center;
+    font-size: 45px;
+    border-radius: 3px;
+    color: var(--orange);
+}
+
+ p {
+    font-size: 24px;
+    text-align: justify;
+    margin: 0px 20px;
+    margin-bottom: 45px;
+    font-family: 'Nunito Sans', sans-serif;
+    color: var(--darkBlue);
+    text-align: center;
+
+}

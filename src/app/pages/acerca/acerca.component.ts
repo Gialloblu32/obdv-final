@@ -9,8 +9,11 @@ export class AcercaComponent implements OnInit {
 
   constructor() { }
 
-  title = "gz32";
+  title = "@gz32";
   subtitle = "Gonzalo Zacarias - Desarrollo Web";
+
+  divtitle = "Portoflio";
+  divsubtitle = "Mirá mis otros trabajos";
 
   ngOnInit(): void {
   }

@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-main-pic',
@@ -8,6 +8,10 @@ import { Component, OnInit } from '@angular/core';
 export class MainPicComponent implements OnInit {
 
   constructor() { }
+
+  @Input() country?: string;
+  @Input() description?: string;
+  @Input() countrypic?: string;
 
   ngOnInit(): void {
   }

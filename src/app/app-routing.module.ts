@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import { RouterModule, Routes } from '@angular/router';
+import { RouterModule, Routes, } from '@angular/router';
 import { AcercaComponent } from './pages/acerca/acerca.component';
 import { CamboyaComponent } from './pages/camboya/camboya.component';
 import { HomeComponent } from './pages/home/home.component';

@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 .pic-menu {
     display: flex;
     margin-bottom: 20px;
@@ -74,24 +78,27 @@
 
 /* PICTURES MUST BE ==> WIDTH = 1978px & HEIGHT = 1978PX */
 
-/* .-mainp {
-    background-image: url("");
+.-mainp {
+    background-image: url("../../../assets/images/menu/index.jpeg");
 }
 .-tur {
-    background-image: url("");
+    background-image: url("../../../assets/images/menu/tur.jpeg");
 }
 .-his {
-    background-image: url("");
+    background-image: url("../../../assets/images/menu/his.jpeg");
 }
 .-cos {
-    background-image: url("");
+    background-image: url("../../../assets/images/menu/cost.jpeg");
 }
 .-nat {
-    background-image: url("");
+    background-image: url("../../../assets/images/menu/nat.jpeg");
 }
 .-fot {
-    background-image: url("");
-} */
+    background-image: url("../../../assets/images/menu/fot.jpeg");
+}
+.-art {
+    background-image: url("../../../assets/images/menu/art.jpeg");
+}
 
 
 /* MENU PICTURES MEDIA QUERY */

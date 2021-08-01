@@ -18,6 +18,7 @@ import { PortfolioComponent } from './components/portfolio/portfolio.component';
 import { AboutComponent } from './components/about/about.component';
 import { FormComponent } from './components/form/form.component';
 import { CountryMenuComponent } from './components/country-menu/country-menu.component';
+import { DivisionComponent } from './components/division/division.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import { CountryMenuComponent } from './components/country-menu/country-menu.com
     PortfolioComponent,
     AboutComponent,
     FormComponent,
-    CountryMenuComponent
+    CountryMenuComponent,
+    DivisionComponent
   ],
   imports: [
     BrowserModule,

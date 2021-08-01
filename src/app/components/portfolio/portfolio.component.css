@@ -66,18 +66,18 @@
 
 /* PICTURES MUST BE ==> WIDTH = 1978px & HEIGHT = 1978PX */
 
-/* .portf-1 {
-    background-image: url(../pics/portfolio/hugo-01.jpeg);
+.portf-1 {
+    background-image: url(../../../assets/images/portfolio/hugo-01.jpeg);
 }
 .portf-2 {
-    background-image: url(../pics/portfolio/instapet-01.jpeg);
+    background-image: url(../../../assets/images/portfolio/instapet-01.jpeg);
 }
 .portf-3 {
     background-image: url(#);
 }
 .portf-4 {
-    background-image: url(../pics/general/OBDV-favicon.png);
-} */
+    background-image: url(../../../assets/images/portfolio/panchito-01.jpeg);
+}
 
 
 /* PORTFOLIO MEDIA QUERIES */

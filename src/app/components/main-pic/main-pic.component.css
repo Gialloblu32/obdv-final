@@ -1,3 +1,15 @@
+.main-pic-container {
+    margin-bottom: 0px;
+    background-color: var(--lighterYellow);
+}
+
+.pic-text-container {
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    display: flex;
+}
+
 .main-pic-text {
     color: var(--darkBlue);
     font-size: 200px;
@@ -58,3 +70,27 @@
         display: none;
     }
 }
+
+
+/* COUNTRY PICS */
+
+.camboya-background {
+    background-image: url(../../../assets/images/countries/camboya/camboya-background.jpeg);
+}
+
+/* .indonesia-background {
+    background-image: url(../html/continents-content/asia/indonesia/indonesia-background.jpg);
+}
+
+.rusia-background {
+    background-image: url(../html/continents-content/europe/rusia/rusia-background.jpg);
+}
+
+.marruecos-background {
+    background-image: url(../html/continents-content/africa/marruecos/marruecos-background.jpg)
+}
+
+.tanzania-background {
+    background-image: url(../html/continents-content/africa/tanzania/tanzania-background.jpg);
+}
+ */
