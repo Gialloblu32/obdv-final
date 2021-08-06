@@ -1,4 +1,38 @@
-.camboya-background {
-    font-size: 500px;
+html {
+    scroll-behavior: smooth;
+}
+
+.division {
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 5px;
+    text-align: center;
+    font-size: 45px;
+    border-radius: 3px;
+    color: var(--orange);
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+ p {
+    font-size: 24px;
+    text-align: justify;
+    margin: 0px 20px;
+    margin-bottom: 45px;
+    font-family: 'Nunito Sans', sans-serif;
+    color: var(--darkBlue);
+    text-align: center;
+}
+
+.menu-wrapper {
+    display: flex;
+    gap: 15px;
+    text-align: center;
+}
+
+.pic-menu {
+    flex-grow: 1;
 }
 

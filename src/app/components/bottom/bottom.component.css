@@ -7,6 +7,19 @@
     border-radius: 10px;
 }
 
+.bottom p {
+    font-family: 'Architects Daughter', cursive;
+    font-size: 18px;
+}
+
+.description-text-link {
+    font-family: 'Architects Daughter', cursive;
+    font-weight: bold;
+    color: var(--orange);
+    font-size: 18px;
+    text-decoration: none;
+}
+
 .my-pic {
     opacity: 0.8;
     border-radius: 50%;

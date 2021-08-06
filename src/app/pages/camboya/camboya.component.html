@@ -1,33 +1,23 @@
 <app-nav-bar></app-nav-bar>
 
 <app-main-pic
-[country]="country"
-[description]="description"
-[countrypic]="countrypic"
+    [country]="country"
+    [description]="description"
+    [countrypic]="countrypic"
 
 ></app-main-pic>
 
-<app-pic-menu></app-pic-menu>
+<div class="menu-wrapper">
+<app-pic-menu
+    *ngFor="let men of menu"
+    [to]="men.to"
+    [image]="men.image"
+    [alt]="men.alt"
+    [title]="men.title"
+></app-pic-menu>
+</div>
 
-<h1 id="principal">Principal</h1>
-
-<app-content 
-    *ngFor="let cont of content"
-    [contentImg]="cont.contentImg"
-    [contentAlt]="cont.contentAlt"
-    [contentP]="cont.contentP"    
-></app-content>
-
-<h1 id="turismo">Turismo</h1>
-
-<app-content 
-    *ngFor="let cont of content"
-    [contentImg]="cont.contentImg"
-    [contentAlt]="cont.contentAlt"
-    [contentP]="cont.contentP"    
-></app-content>
-
-<h1 id="historias">Historias</h1>
+<h2 id="principal">Principal</h2>
 
 <app-content 
     *ngFor="let cont of content"
@@ -36,7 +26,16 @@
     [contentP]="cont.contentP"    
 ></app-content>
 
-<h1 id="costumbres">Costumbres</h1>
+<!-- <h2 id="turismo">Turismo</h2>
+
+<app-contentTur 
+    *ngFor="let cont of content"
+    [contentImgTur]="cont.contentImg"
+    [contentAltTur]="cont.contentAlt"
+    [contentPTur]="cont.contentP"    
+></app-contentTur>
+
+<h2 id="historias">Historias</h2>
 
 <app-content 
     *ngFor="let cont of content"
@@ -45,7 +44,7 @@
     [contentP]="cont.contentP"    
 ></app-content>
 
-<h1 id="naturaleza">Naturaleza</h1>
+<h2 id="costumbres">Costumbres</h2>
 
 <app-content 
     *ngFor="let cont of content"
@@ -54,7 +53,7 @@
     [contentP]="cont.contentP"    
 ></app-content>
 
-<h1 id="fotos">Fotos</h1>
+<h2 id="naturaleza">Naturaleza</h2>
 
 <app-content 
     *ngFor="let cont of content"
@@ -63,6 +62,16 @@
     [contentP]="cont.contentP"    
 ></app-content>
 
+<h2 id="fotos">Fotos</h2>
+
+<app-content 
+    *ngFor="let cont of content"
+    [contentImg]="cont.contentImg"
+    [contentAlt]="cont.contentAlt"
+    [contentP]="cont.contentP"    
+></app-content> -->
+
+<app-map></app-map>
 
 <app-newsletter></app-newsletter>
 

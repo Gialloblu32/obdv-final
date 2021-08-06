@@ -1,22 +1,29 @@
-.portfolio {
+.division {
+    text-align: center;
     background-color: white;
 }
 
-.portfolio-title {
+h2 {
+    margin-bottom: 5px;
     text-align: center;
-    font-size: 50px;
-    background-color: white;
+    font-size: 45px;
+    border-radius: 3px;
+    color: var(--orange);
 }
 
-.portfolio p {
+ p {
+    font-size: 24px;
+    text-align: justify;
+    margin: 0px 20px;
+    color: var(--darkBlue);
     text-align: center;
-    background-color: white;
 }
 
 .portfolio-menu {
     display: flex;
-    margin-bottom: 20px;
-    padding-bottom: 50px;
+    margin-bottom: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     background-color: var(--white);
 }
 
@@ -26,7 +33,6 @@
     box-shadow: 1px 1px 8px var(--darkGrey);
     background-size: cover;
     background-position: center;
-    margin: 5px;
     width: 170px;
     flex-grow: 1;
     list-style: none;
@@ -71,9 +77,6 @@
 }
 .portf-2 {
     background-image: url(../../../assets/images/portfolio/instapet-01.jpeg);
-}
-.portf-3 {
-    background-image: url(#);
 }
 .portf-4 {
     background-image: url(../../../assets/images/portfolio/panchito-01.jpeg);

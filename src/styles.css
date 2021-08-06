@@ -19,3 +19,9 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+body {
+    background-color: var(--lighterYellow);
+    font-family: 'Antonio', sans-serif;
+}
+
+

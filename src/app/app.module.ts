@@ -19,6 +19,8 @@ import { AboutComponent } from './components/about/about.component';
 import { FormComponent } from './components/form/form.component';
 import { CountryMenuComponent } from './components/country-menu/country-menu.component';
 import { DivisionComponent } from './components/division/division.component';
+import { MapComponent } from './components/map/map.component';
+import { TemperatureComponent } from './components/temperature/temperature.component';
 
 @NgModule({
   declarations: [
@@ -38,7 +40,9 @@ import { DivisionComponent } from './components/division/division.component';
     AboutComponent,
     FormComponent,
     CountryMenuComponent,
-    DivisionComponent
+    DivisionComponent,
+    MapComponent,
+    TemperatureComponent
   ],
   imports: [
     BrowserModule,

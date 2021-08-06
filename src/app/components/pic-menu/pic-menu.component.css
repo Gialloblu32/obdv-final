@@ -1,14 +1,22 @@
-html {
-    scroll-behavior: smooth;
-}
-
 .pic-menu {
-    display: flex;
     margin-bottom: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
     background-color: var(--white);
+    flex-grow: 1;
 }
+
+.pic-menu img {
+    width: 100%;
+    max-width: 1000px;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
 
 .current {
     display: none;
@@ -74,9 +82,7 @@ html {
 }
 
 
-/* MENU PICTURES */
 
-/* PICTURES MUST BE ==> WIDTH = 1978px & HEIGHT = 1978PX */
 
 .-mainp {
     background-image: url("../../../assets/images/menu/index.jpeg");
@@ -101,7 +107,7 @@ html {
 }
 
 
-/* MENU PICTURES MEDIA QUERY */
+
 
 @media (max-width: 767px) {
 
@@ -159,3 +165,4 @@ html {
         display: none;
     }
 }
+

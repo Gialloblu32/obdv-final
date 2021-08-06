@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-portfolio',
@@ -8,6 +8,9 @@ import { Component, OnInit } from '@angular/core';
 export class PortfolioComponent implements OnInit {
 
   constructor() { }
+
+  divtitle = "Portfolio";
+  divsubtitle = "Mirá mis otros trabajos";
 
   ngOnInit(): void {
   }

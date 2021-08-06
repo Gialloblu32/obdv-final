@@ -6,11 +6,12 @@
 .title h1 {
     margin: 10px auto;
     margin-bottom: 0;
-    font-size: 120px;
+    font-size: 200px;
     max-width: 500px;
     border: var(--darkBlue) solid 2px;
     border-bottom: none;
     background-color: var(--white);
+    font-family: 'Antonio', sans-serif;
 }
 
 .title p {
@@ -22,6 +23,8 @@
     border-radius: 3px;
     padding-bottom: 25px;
     padding-top: 25px;
+    font-family: 'Antonio', sans-serif;
+    color: var(--orange);
 }
 
 @media (max-width: 767px) {

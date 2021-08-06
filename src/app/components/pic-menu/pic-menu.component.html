@@ -1,4 +1,4 @@
-<ul class="pic-menu">
+<!-- <ul class="pic-menu">
     <li (click)="toPrincipal()" routerLinkActive="active" class="pic-desc-container -mainp current desc-container-link">
             <h3>Principal</h3>
     </li>
@@ -26,4 +26,11 @@
     <li (click)="toPintadas()" routerLinkActive="active"  class="pic-desc-container -art hide desc-container-link">
             <h3>Pintadas</h3>
     </li>
-</ul>
+</ul> -->
+
+//cada uno que tenga un a con href "principal"
+
+<div class="pic-menu">
+        <img src= "{{ image }}"  alt="{{ alt }}" class="card-img">
+        <h3 (click)="toPrincipal()" routerLinkActive="active">{{ title }}</h3>    
+</div>

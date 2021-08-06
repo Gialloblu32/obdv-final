@@ -4,5 +4,9 @@
     width: 100%;
     color: var(--darkBlue);
     height: 55px;
-    font-size: 20px;
+}
+
+h4 {
+    font-family: 'Antonio', sans-serif;
+    font-size: 24px;
 }
