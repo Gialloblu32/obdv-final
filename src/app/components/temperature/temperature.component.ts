@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { TemperatureService } from '../../services/temperature.service'
+
 
 @Component({
   selector: 'app-temperature',
@@ -7,9 +9,23 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TemperatureComponent implements OnInit {
 
-  constructor() { }
+  constructor(
+    private temperatureService: TemperatureService
+    ) { }
+
+    temp: any;
+  
+
+  showTemperature () {
+    this.temperatureService.getTemperature()
+      .subscribe((data: any) => {
+        console.log(data);
+        this.temp = data;
+      });
+  }
 
   ngOnInit(): void {
+    this.showTemperature();
   }
 
 
