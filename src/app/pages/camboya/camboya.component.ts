@@ -12,6 +12,7 @@ export class CamboyaComponent implements OnInit {
   country = "CAMBOYA";
   description = "Niños jugando, vista desde mi casa en Siem Reap, Camboya. Abril de 2020.";
   countrypic = "camboya-background";
+  ciudad = "Mendoza"
 
   menu = [
   {

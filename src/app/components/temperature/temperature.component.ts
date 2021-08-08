@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import { TemperatureService } from '../../services/temperature.service'
 
 
@@ -15,9 +15,10 @@ export class TemperatureComponent implements OnInit {
 
     temp: any;
   
+    @Input() ciudad = "Buenos Aires";
 
   showTemperature () {
-    this.temperatureService.getTemperature()
+    this.temperatureService.getTemperature(this.ciudad)
       .subscribe((data: any) => {
         console.log(data);
         this.temp = data;
