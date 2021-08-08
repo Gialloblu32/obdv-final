@@ -11,7 +11,6 @@ export class MainPicComponent implements OnInit {
 
   @Input() country?: string;
   @Input() description?: string;
-  @Input() countrypic?: string;
 
   ngOnInit(): void {
   }

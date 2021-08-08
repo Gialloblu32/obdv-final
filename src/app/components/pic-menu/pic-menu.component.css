@@ -1,168 +1,74 @@
 .pic-menu {
-    margin-bottom: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    background-color: var(--white);
-    flex-grow: 1;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    list-style: none;
+    justify-content: space-around;
+}
+
+.container {
+    margin: 0px 3px;
+    background-color: white;
+    border-radius: 3px;
+    border: var(--lightGrey) solid 1px;
+    cursor: pointer;
 }
 
 .pic-menu img {
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
     width: 100%;
-    max-width: 1000px;
-
 }
 
-html {
-    scroll-behavior: smooth;
+.pic-menu h3 {
+    color: var(--darkBlue);
+    font-size: 24px;
+    text-align: center;
+    background-color: none;
 }
 
+.container:hover {
+    box-shadow: 4px 4px 8px var(--darkGrey);
+}
 
-
-.current {
-    display: none;
+.container:active {
+    background-color: var(--yellow);
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px var(--darkGrey);
 }
 
 .hide {
     display: none;
 }
 
-.pic-desc-container {
-    border-radius: 5px;
-    box-shadow: 1px 1px 8px var(--darkGrey);
-    background-size: cover;
-    background-position: center;
-    margin: 5px;
-    width: 170px;
-    flex-grow: 1;
-    list-style: none;
-    box-shadow: 4px 4px 8px var(--darkGrey);
-}
-
-.pic-desc-container:hover {
-    background-color: var(--white);
-    color: var(--orange);
-    opacity: 0.8;
-    transition: 0.2s;
-    border-radius: 5px;
-    box-shadow: 4px 4px 8px var(--darkGrey);
-}
-
-.pic-desc-container:active {
-    background-color: var(--yellow);
-    opacity: 1;
-    color: var(--darkBlue);
-    border-radius: 5px;
-    box-shadow: 4px 4px 4px var(--darkGrey);
-}
-
-.desc-container-link {
-    text-decoration: none;
-    display: block;
-}
-
-.pic-desc-container h3 {
-    font-size: 36px;
-    text-align: center;
-    padding: 190px 0px 5px 0px;
-    color: var(--white);
-    text-shadow: 3px 3px 3px var(--darkBlue);
-}
-
-.pic-desc-container h3:hover {
-    text-align: center;
-    padding: 80px 0px;
-    color: var(--yellow);
-    transform: scale(1.2);
-}
-
-.pic-desc-container h3:active {
-    text-align: center;
-    padding: 80px 0px;
-    color: var(--yellow);
-}
-
-
-
-
-.-mainp {
-    background-image: url("../../../assets/images/menu/index.jpeg");
-}
-.-tur {
-    background-image: url("../../../assets/images/menu/tur.jpeg");
-}
-.-his {
-    background-image: url("../../../assets/images/menu/his.jpeg");
-}
-.-cos {
-    background-image: url("../../../assets/images/menu/cost.jpeg");
-}
-.-nat {
-    background-image: url("../../../assets/images/menu/nat.jpeg");
-}
-.-fot {
-    background-image: url("../../../assets/images/menu/fot.jpeg");
-}
-.-art {
-    background-image: url("../../../assets/images/menu/art.jpeg");
-}
-
-
-
-
-@media (max-width: 767px) {
-
-    .pic-menu {
-        display: block;
-        padding: 0px;
+    @media (max-width: 1199px) {
+        .pic-menu h3 {
+            font-size: 18px;
+        }
     }
 
-    .desc-container-link {
-        border-bottom: var(--darkGrey) solid 2px;
-        background-color: var(--orange);
-    }
+    @media (max-width: 767px) {
 
-    .desc-container-link:hover {
-        padding: none;
-    }
+        .pic-menu {
+            display: block;
+            padding: 0px;
+            width: 80%;
+        }
 
-    .pic-desc-container {
-        display: block;
-        width: 90%;
-        margin: 5px auto;
-        border-radius: 5px;
-    }
+        .pic-menu h3 {
+            padding: 5px 0;
+        }
 
-    .pic-desc-container:hover {
-        opacity: 1;
-    }
+        .pic-menu img {
+            display: none;
+        }
 
-    .pic-desc-container:active {
-    box-shadow: 4px 4px 8px var(--lightGrey)
-    }
+        .container {
+            margin-bottom: 3px;
+        }
 
-    .pic-desc-container h3 {
-        color: var(--darkBlue);
-        text-shadow: none;
-        padding: 5px 0px 5px 0px;
-    }
-
-    .pic-desc-container h3:hover {
-        text-align: center;
-        padding: 5px;
-        color: var(--darkBlue);
-        transform: scale(1);
-    }
-
-    .pic-desc-container h3:active {
-        color: var(--yellow);
-    }
-
-    .current {
-        display: none;
-    }
-
-    .hide {
-        display: none;
-    }
+        .container:hover {
+            box-shadow: none
+        }
 }
 

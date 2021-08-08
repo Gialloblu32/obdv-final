@@ -22,6 +22,12 @@ import { CountryMenuComponent } from './components/country-menu/country-menu.com
 import { DivisionComponent } from './components/division/division.component';
 import { MapComponent } from './components/map/map.component';
 import { TemperatureComponent } from './components/temperature/temperature.component';
+import { ContentTurComponent } from './components/content-tur/content-tur.component';
+import { ContentHisComponent } from './components/content-his/content-his.component';
+import { ContentCosComponent } from './components/content-cos/content-cos.component';
+import { ContentNatComponent } from './components/content-nat/content-nat.component';
+import { ContentFotComponent } from './components/content-fot/content-fot.component';
+import { ContentArtComponent } from './components/content-art/content-art.component';
 
 @NgModule({
   declarations: [
@@ -43,7 +49,13 @@ import { TemperatureComponent } from './components/temperature/temperature.compo
     CountryMenuComponent,
     DivisionComponent,
     MapComponent,
-    TemperatureComponent
+    TemperatureComponent,
+    ContentTurComponent,
+    ContentHisComponent,
+    ContentCosComponent,
+    ContentNatComponent,
+    ContentFotComponent,
+    ContentArtComponent
   ],
   imports: [
     BrowserModule,

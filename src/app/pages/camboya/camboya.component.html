@@ -3,22 +3,14 @@
 <app-main-pic
     [country]="country"
     [description]="description"
-    [countrypic]="countrypic"
-
 ></app-main-pic>
 
-<div class="menu-wrapper">
-<app-pic-menu
-    *ngFor="let men of menu"
-    [to]="men.to"
-    [image]="men.image"
-    [alt]="men.alt"
-    [title]="men.title"
-></app-pic-menu>
-</div>
+<app-map></app-map>
+
+
+<app-pic-menu></app-pic-menu>
 
 <h2 id="principal">Principal</h2>
-
 <app-content 
     *ngFor="let cont of content"
     [contentImg]="cont.contentImg"
@@ -26,52 +18,56 @@
     [contentP]="cont.contentP"    
 ></app-content>
 
-<!-- <h2 id="turismo">Turismo</h2>
+<app-division></app-division>
 
-<app-contentTur 
-    *ngFor="let cont of content"
-    [contentImgTur]="cont.contentImg"
-    [contentAltTur]="cont.contentAlt"
-    [contentPTur]="cont.contentP"    
-></app-contentTur>
+<h2 id="turismo">Turismo</h2>
+<app-content-tur 
+    *ngFor="let contTur of contentTur"
+    [contentImgTur]="contTur.contentImgTur"
+    [contentAltTur]="contTur.contentAltTur"
+    [contentPTur]="contTur.contentPTur"    
+></app-content-tur>
+
+<app-division></app-division>
 
 <h2 id="historias">Historias</h2>
+<app-content-his 
+    *ngFor="let contHis of contentHis"
+    [contentImgHis]="contHis.contentImgHis"
+    [contentAltHis]="contHis.contentAltHis"
+    [contentPHis]="contHis.contentPHis"    
+></app-content-his>
 
-<app-content 
-    *ngFor="let cont of content"
-    [contentImg]="cont.contentImg"
-    [contentAlt]="cont.contentAlt"
-    [contentP]="cont.contentP"    
-></app-content>
+<app-division></app-division>
 
 <h2 id="costumbres">Costumbres</h2>
+<app-content-cos 
+    *ngFor="let contCos of contentCos"
+    [contentImgCos]="contCos.contentImgCos"
+    [contentAltCos]="contCos.contentAltCos"
+    [contentPCos]="contCos.contentPCos"    
+></app-content-cos>
 
-<app-content 
-    *ngFor="let cont of content"
-    [contentImg]="cont.contentImg"
-    [contentAlt]="cont.contentAlt"
-    [contentP]="cont.contentP"    
-></app-content>
+<app-division></app-division>
 
 <h2 id="naturaleza">Naturaleza</h2>
+<app-content-nat 
+    *ngFor="let contNat of contentNat"
+    [contentImgNat]="contNat.contentImgNat"
+    [contentAltNat]="contNat.contentAltNat"
+    [contentPNat]="contNat.contentPNat"    
+></app-content-nat>
 
-<app-content 
-    *ngFor="let cont of content"
-    [contentImg]="cont.contentImg"
-    [contentAlt]="cont.contentAlt"
-    [contentP]="cont.contentP"    
-></app-content>
+<app-division></app-division>
 
 <h2 id="fotos">Fotos</h2>
+<app-content-fot 
+    *ngFor="let contFot of contentFot"
+    [contentImgFot]="contFot.contentImgFot"
+    [contentAltFot]="contFot.contentAltFot"
+    [contentPFot]="contFot.contentPFot"    
+></app-content-fot>
 
-<app-content 
-    *ngFor="let cont of content"
-    [contentImg]="cont.contentImg"
-    [contentAlt]="cont.contentAlt"
-    [contentP]="cont.contentP"    
-></app-content> -->
-
-<app-map></app-map>
 
 <app-newsletter></app-newsletter>
 

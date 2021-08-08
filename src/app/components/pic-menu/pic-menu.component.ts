@@ -1,4 +1,4 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-pic-menu',
@@ -8,11 +8,6 @@ import { Component, OnInit, Input } from '@angular/core';
 export class PicMenuComponent implements OnInit {
 
   constructor() { }
-
-  @Input() to?: string;
-  @Input() image?: string;
-  @Input() alt?: string;
-  @Input() title?: string;
 
   ngOnInit(): void {
   }

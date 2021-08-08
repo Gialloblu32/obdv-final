@@ -1,36 +1,36 @@
-<!-- <ul class="pic-menu">
-    <li (click)="toPrincipal()" routerLinkActive="active" class="pic-desc-container -mainp current desc-container-link">
+<ul class="pic-menu" id="picmenu">
+    <li (click)="toPrincipal()" routerLinkActive="active" class="container -mainp">
+            <img src="../../../assets/images/menu/index.jpeg" alt="background-menu">
             <h3>Principal</h3>
     </li>
 
-    <li (click)="toTurismo()" routerLinkActive="active" class="pic-desc-container -tur desc-container-link">
-            <h3>Turismo</h3>
+    <li (click)="toTurismo()" routerLinkActive="active" class="container">
+                <img src="../../../assets/images/menu/tur.jpeg" alt="background-menu">
+                <h3>Turismo</h3>
     </li>
 
-    <li (click)="toHistorias()" routerLinkActive="active"  class="pic-desc-container -his desc-container-link">
-            <h3>Historias</h3>
+    <li (click)="toHistorias()" routerLinkActive="active"  class="container">
+                <img src="../../../assets/images/menu/his.jpeg" alt="background-menu">
+                <h3>Historias</h3>
     </li>
 
-    <li (click)="toCostumbres()" routerLinkActive="active" class="pic-desc-container -cos desc-container-link">   
-            <h3>Costumbres</h3>
+    <li (click)="toCostumbres()" routerLinkActive="active" class="container">   
+                <img src="../../../assets/images/menu/cost.jpeg" alt="background-menu">        
+                <h3>Costumbres</h3>
     </li>
 
-    <li (click)="toNaturaleza()" routerLinkActive="active"  class="pic-desc-container -nat desc-container-link">
-            <h3>Naturaleza</h3>
+    <li (click)="toNaturaleza()" routerLinkActive="active"  class="container">
+                <img src="../../../assets/images/menu/nat.jpeg" alt="background-menu">
+                <h3>Naturaleza</h3>
     </li>
 
-    <li (click)="toFotos()" routerLinkActive="active"  class="pic-desc-container -fot desc-container-link">
-            <h3>Fotos</h3>
+    <li (click)="toFotos()" routerLinkActive="active"  class="container">
+                <img src="../../../assets/images/menu/fot.jpeg" alt="background-menu">
+                <h3>Fotos</h3>
     </li>
 
-    <li (click)="toPintadas()" routerLinkActive="active"  class="pic-desc-container -art hide desc-container-link">
-            <h3>Pintadas</h3>
-    </li>
-</ul> -->
-
-//cada uno que tenga un a con href "principal"
-
-<div class="pic-menu">
-        <img src= "{{ image }}"  alt="{{ alt }}" class="card-img">
-        <h3 (click)="toPrincipal()" routerLinkActive="active">{{ title }}</h3>    
-</div>
+<li (click)="toPintadas()" routerLinkActive="active"  class="container hide">
+                <img src="../../../assets/images/menu/art.jpeg" alt="background-menu">
+                <h3>Pintadas</h3>
+    </li> 
+</ul> 

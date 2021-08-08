@@ -1,7 +1,3 @@
-html {
-    scroll-behavior: smooth;
-}
-
 .division {
     text-align: center;
 }
@@ -12,8 +8,7 @@ h2 {
     font-size: 45px;
     border-radius: 3px;
     color: var(--orange);
-    margin-top: 50px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
  p {
@@ -26,13 +21,8 @@ h2 {
     text-align: center;
 }
 
-.menu-wrapper {
-    display: flex;
-    gap: 15px;
-    text-align: center;
+html {
+    scroll-behavior: smooth;
 }
 
-.pic-menu {
-    flex-grow: 1;
-}
 
