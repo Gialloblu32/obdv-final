@@ -22,5 +22,31 @@
 </head>
 <body>
   <app-root></app-root>
+
+
+  <div class="form">
+    <h2>Dejame tu mensaje</h2>
+    <form name="contactForm" method="POST" data-netlify="true" class="formulario">
+      <div class="form-label">
+        <label for="name">Nombre</label>
+        <input type="text" class="form-input-about" id="name" name="nombre" required>
+      </div>
+      <div class="form-label">
+        <label for="number">Numero de teléfono</label>
+        <input type="number" class="form-input-about" id="number" name="numero">
+      </div>
+      <div class="form-label">
+        <label for="email">E-mail</label>
+        <input type="email" class="form-input-about" id="email" name="e-mail">
+      </div>
+      <textarea id="consultas" cols="100%" rows="5"  maxlength="500" class="form-input-about" name="textarea" placeholder="Dejá tu mensaje acá"></textarea>
+      <div class="form-label form-check">
+        <input type="checkbox" class="form-check-input">
+        <label class="form-check-label" for="exampleCheck1" name="checkbox" required> Acepto enviar mi información de contacto</label>
+      </div>
+      <input type="submit" class="button" value="Enviar">
+    </form>
+  </div>
+
 </body>
 </html>
