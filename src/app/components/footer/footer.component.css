@@ -1,5 +1,5 @@
 .copyright {
-    background-image: linear-gradient(var(--lightGrey) 1%, var(--darkGrey));
+    background-image: linear-gradient(to bottom right, var(--darkGrey) 1%, var(--lightGrey));
     text-align: center;
     width: 100%;
     color: var(--darkBlue);
@@ -7,6 +7,5 @@
 }
 
 h4 {
-    font-family: 'Antonio', sans-serif;
-    font-size: 24px;
+    font-size: 20px;
 }

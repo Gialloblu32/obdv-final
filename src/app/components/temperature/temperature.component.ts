@@ -20,8 +20,7 @@ export class TemperatureComponent implements OnInit {
   showTemperature () {
     this.temperatureService.getTemperature(this.ciudad)
       .subscribe((data: any) => {
-        console.log(data);
-        this.temp = data;
+      this.temp = data;
       });
   }
 

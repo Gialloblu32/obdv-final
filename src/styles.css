@@ -4,11 +4,11 @@
     --orange: #F0810F;
     --yellow: #E6DF44;
     --lightYellow: #fff98a;
-    --lighterYellow: #ffffa8;
+    --lighterYellow: #ffffe4;
     --white: #ffffff;
     --black: #000000;
     --lightGrey: #b4b4b4;
-    --darkGrey: #494949;
+    --darkGrey: #383838;
 }
 
 * {
@@ -23,5 +23,3 @@ body {
     background-color: var(--lighterYellow);
     font-family: 'Antonio', sans-serif;
 }
-
-

@@ -9,7 +9,7 @@
     font-size: 35px;
     color: var(--darkBlue);
     padding: 10px 10px;
-    background-color: var(--white);
+    background-color: none;
     opacity: 0.8;
     border-radius: 10px;
     flex-grow: 1;
@@ -23,8 +23,7 @@
 }
 
 .country-menu-item:hover {
-    background-color: var(--yellow);
-    opacity: 0.8;
+    background-color: var(--lightYellow);
 }
 
 .country-menu-item:active {

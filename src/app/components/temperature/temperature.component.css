@@ -1,0 +1,6 @@
+.live-text {
+    font-size: 40px;
+    color: var(--darkGrey);
+    text-align: center;
+    margin-bottom: 25px;
+}

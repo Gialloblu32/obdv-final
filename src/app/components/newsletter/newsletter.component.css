@@ -2,11 +2,10 @@
     margin: 80px auto;
     padding: 15px;
     border-radius: 6px;
-    background-image: linear-gradient(to bottom right, var(--lightGrey) 1%, var(--darkGrey));
+    background-image: linear-gradient(to bottom right, var(--darkGrey) 1%, var(--lightGrey));
     display: flex;
     align-items: center;
-    max-width: 850px;
-    justify-content: space-between;
+    max-width: 1100px;
 }
 
 .news-text {
@@ -29,11 +28,9 @@
 .form-input-news {
     padding: 10px;
     border-radius: 10px;
-    background-color: var(--white);
     border: var(--darkBlue) solid 2px;
     color: var(--darkBlue);
     font-size: 20px;
-    font-family: 'Nunito Sans', sans-serif;
     display: flex;
     justify-content: flex-end;
 }
