@@ -28,6 +28,10 @@ import { ContentCosComponent } from './components/content-cos/content-cos.compon
 import { ContentNatComponent } from './components/content-nat/content-nat.component';
 import { ContentFotComponent } from './components/content-fot/content-fot.component';
 import { ContentArtComponent } from './components/content-art/content-art.component';
+import { IndonesiaComponent } from './pages/indonesia/indonesia.component';
+import { RusiaComponent } from './pages/rusia/rusia.component';
+import { MarruecosComponent } from './pages/marruecos/marruecos.component';
+import { TanzaniaComponent } from './pages/tanzania/tanzania.component';
 
 @NgModule({
   declarations: [
@@ -55,7 +59,11 @@ import { ContentArtComponent } from './components/content-art/content-art.compon
     ContentCosComponent,
     ContentNatComponent,
     ContentFotComponent,
-    ContentArtComponent
+    ContentArtComponent,
+    IndonesiaComponent,
+    RusiaComponent,
+    MarruecosComponent,
+    TanzaniaComponent
   ],
   imports: [
     BrowserModule,
