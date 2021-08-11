@@ -12,6 +12,7 @@ export class MarruecosComponent implements OnInit {
   country = "MARRUECOS";
   description = "En pleno verano de 2016, crucé el estrecho de Gibraltar para enfrentar el mayor choque cultural hasta el momento. Marruecos fue intensidad de principio a fin y me gustó tanto que me debo aún una segunda visita. Proximamente voy a completar esta página para que tengas a tu alcance toda la info del viaje. ¡Gracias!";
   ciudad = "Casablanca"
+  map = "https://www.google.com.ar/maps/embed?pb=!1m18!1m12!1m3!1d3994180.3103236738!2d102.73541645006655!3d12.141770919194856!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x310787bfd4dc3743%3A0xe4b7bfe089f41253!2sCamboya!5e0!3m2!1ses!2sar!4v1624224530031!5m2!1ses!2sar"
 
   content = [
     {

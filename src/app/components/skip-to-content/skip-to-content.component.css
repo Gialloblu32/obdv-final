@@ -1,0 +1,19 @@
+.sr-only {
+    position: absolute!important;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px, 1px, 1px, 1px);
+    white-space: nowrap;
+}
+
+.sr-only:focus {
+    background-color: var(--orange);
+    font-size: 25px;
+    padding: 20px;
+    width: auto;
+    height: auto;
+    clip: auto;
+    text-decoration: none;
+}

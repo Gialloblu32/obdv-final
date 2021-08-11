@@ -1,0 +1,17 @@
+<app-skip-to-content></app-skip-to-content>
+
+<app-nav-bar></app-nav-bar>
+
+<h2 id="principal">Mis fotos favoritas</h2>
+
+<div class="fav-pic">
+    <app-fav-pic
+    *ngFor="let contFav of contentFav"
+    [contentImgFav]="contFav.contentImgFav"
+    [contentAltFav]="contFav.contentAltFav"
+    [contentPFav]="contFav.contentPFav"    
+></app-fav-pic>
+</div>
+
+<app-footer></app-footer>
+

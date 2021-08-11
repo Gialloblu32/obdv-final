@@ -12,6 +12,7 @@ export class IndonesiaComponent implements OnInit {
   country = "INDONESIA";
   description = "Tras bajar por Tailandia, Malasia y Singapur, pasé tres semanas increíbles en Indonesia. Me encontré con mi hermana en el aeropuerto de Yakarta y empezamos un raid sin parar durante diez dias en la isla de Java, y después relajamos un poco yendo a Bali. Proximamente voy a completar esta página para que tengas a tu alcance toda la info del viaje. ¡Gracias!";
   ciudad = "Jakarta"
+  map = "https://www.google.com.ar/maps/embed?pb=!1m18!1m12!1m3!1d3994180.3103236738!2d102.73541645006655!3d12.141770919194856!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x310787bfd4dc3743%3A0xe4b7bfe089f41253!2sCamboya!5e0!3m2!1ses!2sar!4v1624224530031!5m2!1ses!2sar"
 
   content = [
     {

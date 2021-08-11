@@ -32,6 +32,9 @@ import { IndonesiaComponent } from './pages/indonesia/indonesia.component';
 import { RusiaComponent } from './pages/rusia/rusia.component';
 import { MarruecosComponent } from './pages/marruecos/marruecos.component';
 import { TanzaniaComponent } from './pages/tanzania/tanzania.component';
+import { SkipToContentComponent } from './components/skip-to-content/skip-to-content.component';
+import { FotosComponent } from './pages/fotos/fotos.component';
+import { FavPicComponent } from './components/fav-pic/fav-pic.component';
 
 @NgModule({
   declarations: [
@@ -63,7 +66,10 @@ import { TanzaniaComponent } from './pages/tanzania/tanzania.component';
     IndonesiaComponent,
     RusiaComponent,
     MarruecosComponent,
-    TanzaniaComponent
+    TanzaniaComponent,
+    SkipToContentComponent,
+    FotosComponent,
+    FavPicComponent
   ],
   imports: [
     BrowserModule,

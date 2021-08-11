@@ -12,6 +12,8 @@ export class RusiaComponent implements OnInit {
   country = "RUSIA";
   description = "Después de trabajar cuatro meses en el crucero, me fui a Rusia, a partir de los octavos de final del mundial de futbol del 2018. Allá me encontré con mi hermano, su novia y un amigo, estuviumos tres semanas, recorrimos Moscú, Sergiev Posad, Suzdal, Samara, Kazan, Nizhny Novgorod, San Petesburgo, y aprovechamos para visitar un poco de Finlandia y Estonia.";
   ciudad = "Moscu"
+  map = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2373967.0400500796!2d36.15303696689585!3d55.63109007614437!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54afc73d4b0c9%3A0x3d44d6cc5757cf4c!2zTW9zY8O6LCBSdXNpYQ!5e0!3m2!1ses!2sar!4v1628631615562!5m2!1ses!2sar"
+
 
   content = [
     {

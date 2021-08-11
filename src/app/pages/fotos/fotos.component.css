@@ -1,0 +1,32 @@
+h2 {
+    margin-bottom: 5px;
+    text-align: center;
+    font-size: 45px;
+    border-radius: 3px;
+    color: var(--orange);
+    margin-bottom: 10px;
+}
+
+.fav-pic {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+@media (max-width: 767px) {
+    .fav-pic {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 5px;
+    }
+}
+
+@media (max-width: 450px) {
+    .fav-pic {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 5px;
+    }
+}
+
+

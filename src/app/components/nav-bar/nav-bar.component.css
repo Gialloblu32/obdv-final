@@ -12,18 +12,6 @@
     margin-right: 25px;
 }    
 
-.nav-logo {
-    max-width: 65px;
-    border-radius: 5px;
-    transition: 0.2s;
-    margin-left: 25px;
-}
-
-.nav-logo:hover {
-    transform: scale(1.2);
-    box-shadow: 1px 1px 4px var(--lightGrey);
-}
-
 .nav-list_item-link {
     text-decoration: none;
     color: var(--blue);
@@ -36,58 +24,15 @@
     color: var(--lightYellow);
 }
 
-
-/* NAV BAR MEDIA QUERIES */
-
-.button-hamburger {
-    display: none;
-    font-size: 25px;
-    padding: 10px 10px;
-    background-color: var(--darkGrey);
-    width: 100%;
-    box-shadow: 3px 3px 3px var(--lightGrey);
-    border: none;
+@media (max-width: 454px) {
+    .nav-list {
+    display: block;
+    text-align: center;
 }
 
-@media (max-width: 767px) {
-
-    .nav-list {
-        display: none;
-    }
-
-    .nav-list_item-link {
-        display: block;
-        border-bottom: var(--lightGrey) solid 1px;
-        margin-bottom: 2px;
-        padding: 5px;
-        text-align: center;
-        background-color: white;
-        box-shadow: 3px 3px 3px var(--lightGrey);
-    }
-
-    .nav-list_item-link:hover {
-        color: var(--darkBlue);
-    }
-
-    .nav-list_item-link:active {
-        color: var(--orange);
-    }
-
-    .nav-logo:hover {
-        transform: scale(1);
-        box-shadow: none;
-    }
-
-    .appear {
-        display: block;
-        border: 5px;
-    }
-
-    .button-hamburger {
-        display: block;
-    }
-
-    .nav-form {
-        display: none;
-    }
+.nav-list-item {
+    display: block;
+    text-align: center;
+    margin-right: none;
+}
 }

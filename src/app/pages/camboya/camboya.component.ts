@@ -12,6 +12,7 @@ export class CamboyaComponent implements OnInit {
   country = "CAMBOYA";
   description = "Viví en Camboya un año y medio. Llegué en marzo de 2019 después de unos meses de viaje por Asia, y me fuí en agosto de 2020, en medio del caos por la pandemia del coronavirus. Antes de llegar, yo tenía amigos viviendo en la ciudad de Siem Reap, lo que hizo mas facil para entender algunas cosas del lugar. Trabajé en algunos lugares como profesor de inglés part-time y en una escuela trabajé full-time en segundo, tercero y cuarto grado, incluso en los meses en que la escuela estuvo cerrada por cuarentena, ya que seguí dándo clases online. Mi casa quedaba a unos diez minutos en bici del centro. El lugar contaba con diez casitas, un lindo parque y una pileta que conservaba el agua a temperatura para el mate durante todo el dia. En Camboya hacer calor. La gente es copada, alegre y generalmente se interesan por saber un poco mas de vos. Por mas que casi nadie hable inglés, con señas y buena voluntad, es posible entenderse. Hay muchos extranjeros viviendo en la ciudad de Siem Reap, hay aceptable vida nocturna y muchas opciones gastronómicas.";
   ciudad = "Siem Reap"
+  map = "https://www.google.com.ar/maps/embed?pb=!1m18!1m12!1m3!1d3994180.3103236738!2d102.73541645006655!3d12.141770919194856!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x310787bfd4dc3743%3A0xe4b7bfe089f41253!2sCamboya!5e0!3m2!1ses!2sar!4v1624224530031!5m2!1ses!2sar"
 
   content = [
     {

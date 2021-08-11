@@ -29,6 +29,7 @@
 
 .container:hover {
     box-shadow: 4px 4px 8px var(--darkGrey);
+    transform: scale(1.2);
 }
 
 .container:active {
@@ -69,6 +70,11 @@
 
         .container:hover {
             box-shadow: none
+        }
+
+        .container:hover {
+            box-shadow: none;
+            transform: none;
         }
 }
 

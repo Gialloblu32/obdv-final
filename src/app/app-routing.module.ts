@@ -8,6 +8,8 @@ import { IndonesiaComponent } from './pages/indonesia/indonesia.component';
 import { RusiaComponent } from './pages/rusia/rusia.component';
 import { MarruecosComponent } from './pages/marruecos/marruecos.component';
 import { TanzaniaComponent } from './pages/tanzania/tanzania.component';
+import { FotosComponent } from './pages/fotos/fotos.component';
+
 
 import { AcercaComponent } from './pages/acerca/acerca.component';
 
@@ -19,6 +21,7 @@ const routes: Routes = [
   { path: 'marruecos', component: MarruecosComponent },
   { path: 'tanzania', component: TanzaniaComponent },
 
+  { path: 'fotos', component: FotosComponent },
   { path: 'acerca', component: AcercaComponent }
 
 ];
